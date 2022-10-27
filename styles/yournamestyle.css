@@ -1,0 +1,65 @@
+/* filename: [yournamestyle.css]
+author: [Noor ul Ain Khurshid]
+created: [01 october 2020]
+last modified: [03 october 2020]
+description: [lab03.html]*/
+
+body {
+background-color: blue;
+}
+
+*{color:#2F4F4F;}
+
+section{ 
+float:left; 
+margin:auto; 
+width:auto;
+}
+
+aside{
+float:right;
+margin-right:30px;
+width:250px;
+}
+
+footer{
+text-align:center;
+clear:both;
+}
+
+
+h2{   
+color:rgb(0,128,128);
+font-weight:bold;
+font-size:1.5em;
+}
+
+nav a {
+text-decoration:none;
+padding:0.2em 0.6em; 
+border: 2px solid #ccc;
+ }
+
+nav a:hover{   
+background-color: #3399ff;
+}
+
+nav li{
+	display:inline;
+	}
+
+aside, footer{    
+font-style:italic;
+}
+
+.special{ 
+color:darkorange;
+font-weight:bold;
+}
+
+#images{    
+display:block;    
+margin-left:auto;    
+margin-right:auto;    
+width:300px;}
+
